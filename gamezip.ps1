@@ -1,4 +1,4 @@
-Set-ExecutionPolicy -ExecutionPolicy Unrestricted
+# Set-ExecutionPolicy -ExecutionPolicy Unrestricted
 Add-Type -Assembly System.IO.Compression.FileSystem
 $folderName = "testfold"
 Write-Output  ("your folder is : " + $folderName)

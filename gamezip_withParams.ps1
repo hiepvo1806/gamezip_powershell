@@ -1,4 +1,4 @@
-Set-ExecutionPolicy -ExecutionPolicy Unrestricted
+# Set-ExecutionPolicy -ExecutionPolicy Unrestricted
 Add-Type -Assembly System.IO.Compression.FileSystem
 # $folderName = "testfold"
 $folderName = Read-Host -Prompt 'Input your want-to-zip folder'
