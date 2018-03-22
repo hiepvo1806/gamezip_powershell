@@ -1,7 +1,7 @@
 Set-ExecutionPolicy -ExecutionPolicy Unrestricted
 Add-Type -Assembly System.IO.Compression.FileSystem
 $folderName = "testfold"
-
+Write-Output  ("your folder is : " + $folderName)
 
 $currentDate = Get-Date
 Write-Output $currentDate.ToString("dd-MMM-yyyy-HH-mm-ss")
